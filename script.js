@@ -174,7 +174,7 @@ class Fish {
 
 
 addButton.addEventListener("click", () => {
-  const fish = new Fish("/images/small-fish.svg", "Fish", 150, aqua);
+  const fish = new Fish("images/small-fish.svg", "Fish", 150, aqua);
   fish.swim(); // одразу запускаємо позицію рибки
   fish.startHungerTimer(); // запускаємо таймер голоду
 });
