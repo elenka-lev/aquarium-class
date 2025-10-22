@@ -6,7 +6,7 @@
 .aquarium {
   position: relative;
   margin: 0 auto;
-  background: url('images/aquarium.png') center center/cover no-repeat;
+  background: url('./images/aquarium.png') center center/cover no-repeat;
   height: 100vh;
 }
 .controls {
