@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.aquarium {
+  position: relative;
+  margin: 0 auto;
+  background: url('/images/aquarium.png') center center/cover no-repeat;
+  height: 100vh;
+}
+.controls {
+ display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 30px;
+}
+button {
+  padding: 10px 20px;
+  font-size: 20px;
+  color: aliceblue;
+  background-color: cadetblue;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+}
+button:hover {
+  background-color: darkcyan;
+}
+.container {
+  margin: 0 auto;
+  position: relative;
+  width: 80%;
+  height: calc(100vh - 80px);
+  overflow: hidden;
+}
+.fish {
+  position: absolute; 
+  width: 150px;
+  cursor: pointer;
+  transition: left 5s linear, top 5s linear, transform 0.5s linear;
+}
