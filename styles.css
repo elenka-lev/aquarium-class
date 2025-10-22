@@ -40,3 +40,15 @@ button:hover {
   cursor: pointer;
   transition: left 5s linear, top 5s linear, transform 0.5s linear;
 }
+
+.fish-message {
+  position: absolute; 
+  background: #472da1;
+  border-radius: 8px;
+  padding: 4px 8px;
+  font-size: 15px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  pointer-events: none; 
+  z-index: 10;          
+}
